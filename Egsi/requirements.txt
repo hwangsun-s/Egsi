@@ -1,0 +1,5 @@
+numpy>=1.26.0
+pandas>=2.2.0
+opencv-python>=4.10.0
+mediapipe>=0.10.14
+pyttsx3>=2.90
