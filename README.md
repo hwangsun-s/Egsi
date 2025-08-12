@@ -31,10 +31,9 @@ The dataset was constructed based on coordinate features extracted from hand lan
 Uses an IR camera and MediaPipe Hands to extract 63 hand landmark coordinates and a label, and saves them to hand_sign_data.csv.
 Labels are set as `0 = None`, `1 = I am sick`, and `2 = Help me please`.
 
-`traim.py` trains a Multi-Layer Perceptron (MLP) binary classification model using
-hand gesture landmark data (CSV) and saves the best-performing model as a .pth file.
+`traim.py` uses an IR camera and MediaPipe Hands to extract 63 hand landmark coordinates and a label, and saves them to `hand_sign_data.csv`.
 
-To add additional sign gestures, each gesture was recorded in real time using a camera, the LABEL in `make.py` was updated to the corresponding gesture class, and the model was retrained.
+Trains an MLP model using the landmark data from hand_sign_data.csv and saves the best-performing model as `hand_sign_binary.pth`
 ```
 python make.py
 python train.py
