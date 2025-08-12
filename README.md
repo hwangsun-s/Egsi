@@ -28,13 +28,17 @@ The dataset was constructed based on coordinate features extracted from hand lan
 |-- <hand_sign_binary.pth>
 ```
 ### Training
+This script trains a Multi-Layer Perceptron (MLP) binary classification model using
+hand gesture landmark data (CSV) and saves the best-performing model as a .pth file.
+
 To add additional sign gestures, each gesture was recorded in real time using a camera, the LABEL in `make.py` was updated to the corresponding gesture class, and the model was retrained.
 ```
 python make.py
 python train.py
 ```
 ### Inference
-Run the model
+This script uses a trained MLP model (.pth) and an IR camera
+to recognize hand gestures in real time, and provides voice guidance (TTS) and on-screen display when the specified conditions are met.
 ```
 python Egsi.py
 ```
