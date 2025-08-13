@@ -1,5 +1,7 @@
 # Egsi
-This project implements a real-time sign language recognition and translation system using an infrared (IR) camera. The IR camera can reliably detect hand movements even in low-light or disaster situations, making it applicable under various lighting conditions.
+This project implements a real-time sign language recognition and translation system using an infrared (IR) camera. The IR camera can reliably detect hand movements even in low-light or disaster situations, ensuring high reliability under various lighting and environmental conditions. The system utilizes MediaPipe for hand landmark extraction and a trained MLP model for recognition, delivering results in real time through both voice output and on-screen display.
+
+
 
 ![Image](https://github.com/user-attachments/assets/9ea9e5ba-af44-4d18-8904-0ffd656b4c94)
 
