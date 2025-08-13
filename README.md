@@ -3,8 +3,7 @@ This project implements a real-time sign language recognition and translation sy
 
 
 
-![Image](https://github.com/user-attachments/assets/9ea9e5ba-af44-4d18-8904-0ffd656b4c94)
-
+![Image](https://github.com/user-attachments/assets/30bfe9c6-b5fc-44f3-88d5-089ec7fb55b0)
 ## Usage
 
 ### Installation
